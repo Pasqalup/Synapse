@@ -1,4 +1,6 @@
 # RS485-modules
+<img width="520" alt="zine page" src="assets/Zine%20page.png" />    
+
 ## What is this?
 This is a modular electronics system I made based on RS485. Using RS485 allows you to daisy chain up to **32 devices**[^1] on a single bus!     
 The master board I've made is powered by an **STM32F405** and has **4 independent RS485 buses** for a total maximum of **128 devices**[^1]!    
