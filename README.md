@@ -4,7 +4,8 @@
 ## What is this?
 This is a modular electronics system I made based on RS485. Using RS485 allows you to daisy chain up to **32 devices**[^1] on a single bus!     
 The master board I've made is powered by an **STM32F405** and has **4 independent RS485 buses**, for a total of up to **128 devices**[^1]!    
-    
+
+## Why did I make it?
 I initially began this project when I wanted a modular control system for a 6-axis robotic arm. I designed individual closed-loop stepper motor driver PCBs and decided to use RS485 to connect them all to a master controller board. When I realized I also needed to add a grabber servo, I had the idea of turning this into a full modular control system.
 
 ## How do you use it?
